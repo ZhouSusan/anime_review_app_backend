@@ -1,4 +1,4 @@
-package entity;
+package dev.susan.animes.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
