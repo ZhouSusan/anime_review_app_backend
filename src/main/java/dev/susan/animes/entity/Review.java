@@ -17,5 +17,8 @@ public class Review {
     @Id
     private ObjectId id;
     private String body;
-    private LocalDateTime created;
+
+    public Review (String body) {
+        this.body = body;
+    }
 }
